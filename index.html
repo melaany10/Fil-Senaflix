@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SENAFLIX</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+          <a class="navbar-brand me-auto" href="#">
+            <h1>SENAFLIX</h1>
+          </a>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+              aria-labelledby="ossffcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                  <h1 class="offcanvas-title" id="offcanvasNavbarLabel">SENAFLIX</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                      <li class="nav-item">
+                          <a class="nav-link mx-lg-2 active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link mx-lg-2" href="#C.servicios">C.servicios</a>
+                      </li>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link mx-lg-2" href="#C.productos">C.productos</a>
+                      </li>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link mx-lg-2" href="#C.musica">C.musica</a>
+                      </li>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link mx-lg-2" href="#C.naturaleza">C.naturaleza</a>
+                      </li>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link mx-lg-2" href="#C.comida">C.comida</a>
+                      </li>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link mx-lg-2" href="#fil-minuto">Fil-minuto</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          <a href="#" class="login-button">Login</a>
+          <button class="navbar-toggler pe.0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+      </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Carrucel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+
+            <div class="carousel-item active d-item">
+              <img src="images/miniaturaprincipal.gif" class="d-block w-100 d-img" alt="slider 1">
+            </div>
+
+            <div class="carousel-item active d-item">
+              <img src="images/miniatura2.jpg" class="d-block w-100 d-img" alt="slider 1">
+            </div>
+
+            <div class="carousel-item active d-item">
+              <img src="images/fondoprincipal.jpg" class="d-block w-100 d-img" alt="slider 1">
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+<!-- End Carrucel -->
+
+        <div class="row">
+          <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 caja1"></div>
+          <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 caja1">
+            <h2>Elige tu categoria</h2>
+          </div>
+          <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 caja2">
+            <h3>Escoge a tu gusto la categoría que más te gusta y así poder disfrutar al 100.</h3>
+          </div>
+          <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 caja1"></div>
+        </div>
+
+        <div class="row" id="C.servicios">
+          <div class="col-xxl-12 a1">
+            <h4>CATEGORIA DE SERVICIOS</h4>
+          </div>
+        </div>
+
+        <!--Acá inicia una sección de videos-->
+        <div class="row">
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="images/eymmontacergas.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">E&M MONTACARGAS</h5>
+              <p class="card-text">Frank Harrison Peña</p>
+              <p>¿Quién podrá ayudarte a cargar eso que nadie ha podido cargar durante todo este tiempo? No te preocupes en este video en contratar la solución a ese problema, ¿quieres saber más?...</p>
+              <a href="https://youtu.be/Mc3nZN7mXIY?si=3QrqtXtd9Q9LySxO" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="images/Doc.Juguetes.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">DOC JUGUETES hospital de muñecos</h5>
+              <p class="card-text">Daniel Valderrama Mora</p>
+              <p>Estás triste porque el muñeco que tanto querías y te acompaño en toda tu infancia se acabó de dañar. El Doc. juguetes te ayudara y quedara como nuevo, ¿quieres saber más?...</p>
+              <a href="https://youtu.be/MIIY1Xtz3H8?si=nNyvWPtg2yjct2oy" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="images/miprimergranpaso.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MI PRIMER GRAN PASO guarderia</h5>
+              <p class="card-text">Daniel Felipe Contreras</p>
+              <p>Encuentra el lugar más divertido y tranquilo para dejar a tus pequeños, con los mejores cuidados. Mira el video para saber más de esta gran oportunidad.</p>
+              <a href="https://youtu.be/XWjmA2mvRr0?si=NHLs7LK-ELSzKDYX" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="images/Adymart.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ADYMART salud y descanso</h5>
+              <p class="card-text">Angela Garcia Mojica</p>
+              <p>Acabas de comprar tu nuevo apartamento y necesitas amoblarlo de la mejor manera y calidad. Acá te tengo la solución ¿Qué esperas?...</p>
+              <a href="https://youtu.be/SQMbiaYxMhw?si=AFMjZMKqoob6XmSd" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="images/jumboexpress.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">JUMBO EXPRESS</h5>
+              <p class="card-text">Manuel Alejandro Castillo</p>
+              <p>Encuentra la solución a tus necesidades de movilidad, encontrarás un servicio óptimo de transporte especial para pasajeros a nivel nacional en todas sus modalidades y mucho más para ti. ¿Quieres obtener más información?</p>
+              <a href="https://youtu.be/C81Vl_3UfIo?si=wJoQIwjILx9rdenR" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+
+        </div>
+        <!--Acá termina una sección de videos-->
+
+        <div class="row" id="C.productos">
+          <div class="col-xxl-12 a1">
+            <h4>CATEGORIA DE PRODUCTOS</h4>
+          </div>
+        </div>
+
+        <!--Acá inicia una sección de videos-->
+        <div class="row">
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="images/piiguslamarcadelamor.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PIIGU´S la marca del amor</h5>
+              <p class="card-text">Melany Cortes Muñoz</p>
+              <p>¿Estás buscando un estilo nuevo para tu hijo o hija? En PIIGU´S calzado te ofrece los mejores estilos de calidad y comodidad para que tu hijo o hija marque la diferencia. ¿Qué esperas para ver a tu bebe brillar?</p>
+              <a href="https://youtu.be/cnahbzLwf88?si=ySalMAWQRCbRyia8" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="images/kuroe.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">KUROE</h5>
+              <p class="card-text">Carol Julieth Velasquez</p>
+              <p>¿No sabes que ponerte para la fiesta o para la cita que tienes más tarde?, no hay problema, encontraste el mejor lugar para encontrar tu estilo, ¿quieres saber más?...</p>
+              <a href="https://youtu.be/-AtFtGZdKVk?si=JkutMpFLsR--TLqN" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="images/Distroys.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">DISTROYS C.R</h5>
+              <p class="card-text">Jhohan Sebastian Cortes</p>
+              <p>En este video encontrarás las mejores opciones de decoración para las fechas más importantes de tu vida, conoce más y decora a tu gusto.</p>
+              <a href="https://youtu.be/MdLFs3Xfkeo?si=dHzHevI5apsXK_-y" class="btn btn-primary">VER AHOAR</a>
+            </div>
+          </div>
+
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MY BOOTS FOR LADIS</h5>
+              <p class="card-text">Brayan David Parada</p>
+              <p>Encuentra la combinación perfecta para tu outfit de fin de semana, conoce los diferentes estilos de botas y enamórate más.</p>
+              <a href="#" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="images/madewill.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MADEWILL</h5>
+              <p class="card-text">Weilber Alejandro Herrera</p>
+              <p>Te gusta ser detallista y darle sorpresas a las personas que quieres, frente de ti tienes la mejor opción para descubrir esos detalles únicos y personalizados, ¿qué esperas para encargar el tuyo?</p>
+              <a href="https://youtu.be/YUaKFel_Ylo?si=pKPtWAlwQ5buQA66" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="images/MisTesoroscolombia.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MIS TESOROS colombia</h5>
+              <p class="card-text">Laura Jimena Garzon</p>
+              <p>No existe fecha específica para que hagas feliz a la persona que amas, en este video encontraras lo que tanto has buscado, atrévete a salirte de las reglas.</p>
+              <a href="https://youtu.be/H7SFN5K56uQ?si=4LOyRnHhp_FV0aWf" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="images/federal.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">FEDERAL</h5>
+              <p class="card-text">Cristian Ivaan Reyes</p>
+              <p>Estilo y calidad en un solo lugar, que esperas para conocer más de esta marca que renovara toda tu imagen en un 2x3. Conoce más...</p>
+              <a href="https://youtu.be/VTzGHJsigo4?si=Bk5xqEeChZHMx1jr" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="images/ChattyPelucass.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CHATTY PELUCAS</h5>
+              <p class="card-text">Mariana Bautista Romero</p>
+              <p>Apúntate a un cambio de imagen y ser una nueva persona, lo más interesante es que estás a un clic de cambiar tu vida y con la mejor calidad en el mercado, ¿qué esperas?</p>
+              <a href="https://youtu.be/vWwZDHnmvKk?si=ogIPQMddLJxFimPP" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MASTER SPRING resortes</h5>
+              <p class="card-text">Alvaro Enrique Suarez</p>
+              <p>Estás cansado de que el resorte que tenía tu cama se haya dañado y no te deja dormir por las noches. En este video encontrarás la solución para seguir durmiendo como un bebe. Mira más...</p>
+              <a href="https://youtu.be/w-svFUG_m70?si=KaIFrvlBvTo5TiQf" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="images/camisas.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MANUFACTURAS CAMI S.A.S</h5>
+              <p class="card-text">Juan Camilo Abril</p>
+              <p>Detrás de un buen trabajo encontramos las mejores camisas hechas con amor para que hagan parte de tus momentos más importantes, conoce más y llénate de calidad.</p>
+              <a href="https://youtu.be/TnjJAPEJ28k?si=OfAkEp0oUINbvkPP" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="images/wonder.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">WONDER descubre tu propia aventura</h5>
+              <p class="card-text">Cristian Camilo Cifuentes</p>
+              <P>...</P>
+              <a href="#" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">...</h5>
+              <p class="card-text">Ana Maria Ramirez</p>
+              <p>...</p>
+              <a href="#" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">...</h5>
+              <p class="card-text">Oscar David Salinas</p>
+              <p>...</p>
+              <a href="#" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+        </div>
+        <!--Acá termina una sección de videos-->
+
+          <div class="row" id="C.musica">
+            <div class="col-xxl-12 a1">
+              <h4>CATEGORIA DE MUSICA</h4>
+            </div>
+          </div>
+
+        <!--Acá inicia una sección de videos-->
+        <div class="row">
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="images/santumblack.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SANCTUMBLACK</h5>
+              <p class="card-text">Zharick Alvarez Sanchez</p>
+              <p>Eres apasionado por la música rock, en este video encontraras el teaser oficial de una nueva banda que de seguro te gustara. ¡¿Qué esperas para escucharlo?</p>
+              <a href="https://youtu.be/IsEiK61v6-U?si=Uo3-v9eauxOSSv94" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+        </div>
+        <!--Acá termina una sección de videos-->
+
+          <div class="row" id="C.naturaleza" >
+            <div class="col-xxl-12 a1">
+              <h4>CATEGORIA DE NATURALEZA</h4>
+            </div>
+          </div>
+
+        <!--Acá inicia una sección de videos-->
+        <div class="row">
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">RINCONCITO FLORAL</h5>
+              <p class="card-text">Gustavo Adolfo Ortega</p>
+              <p>¿Quieres que tu casa tenga en cada rincón el amor y la dulzura de una planta que cambie todo a tu alrededor?, en este video encontraras todo lo que tanto estás buscando para darle un toque diferente a tu hogar.</p>
+              <a href="https://youtu.be/1cZyUL7UpH0?si=Apc4dJ9XWwl3mffs" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="images/floristeriaelgirasol.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">FLORISTERIA EL GIRASOL</h5>
+              <p class="card-text">Monica Timon Sepulveda</p>
+              <p>Estás buscando la flor más hermosa para darle a esa persona que tanto estimas, llegaste donde era; en este video encontraras la información necesaria para encontrar esas flores que tanto has buscado. ¿Qué esperas para comprar la tuya?</p>
+              <a href="https://youtu.be/zlC4JRbUC7o?si=VOh_PIT-1AlcXQx8" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+        </div>  
+        <!--Acá termina una sección de videos-->
+
+          <div class="row" id="C.comida" >
+            <div class="col-xxl-12 a1">
+              <h4>CATEGORIA DE COMIDA</h4>
+            </div>
+          </div>
+
+        <!--Acá inicia una sección de videos-->
+        <div class="row">
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="images/santacosecha.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SANTA COSECHA</h5>
+              <p class="card-text">Luz Angela Gaitan</p>
+              <P>En este video encontrarás los mejores patacones pre-cosidas para llevar a un pícnic familiar y lo mejor es que está al alcance de tus manos, ¿qué esperas para comer sabroso?</P>
+              <a href="https://youtu.be/AKj7AvsZdxI?si=V4cGHdadA2EQc1Ko" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="images/chokopops.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CHOKO POPS</h5>
+              <p class="card-text">Gabriela Rodriguez Medina</p>
+              <p>Para TI que te gusta endulzar tu día a día, en el video encontraras las mejores golosinas para compartir en familia y amigos. No esperes más y compra los tuyos.</p>
+              <a href="https://youtu.be/ghDbe4R-AEw?si=KE2bTDE0Pj3Us4CG" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="images/toquededulcura.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">TOQUE DE DULSURA</h5>
+              <p class="card-text">Cristian Fernando Figueroa</p>
+              <p>...</p>
+              <a href="#" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+        </div>  
+        <!--Acá termina una sección de videos-->
+
+          <div class="row" id="fil-minuto" >
+            <div class="col-xxl-12 a1">
+              <h4>FIL-MINUTO</h4>
+            </div>
+          </div>
+
+        <div class="row">
+          <div class="card col-xl-12 col-lg-12" style="width: 30rem; height: 35rem;">
+            <img src="images/filminutohallowen.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">TERROR EN EL 301</h5>
+              <p class="card-text">Ficha: 2771433</p>
+              <p>Si eres amante al terror, este video es para ti. Sumérgete en la historia donde NO HAY ESCAPATORIA donde ni tú podrás salir. ¿Te atreves a mirar?</p>
+              <a href="https://youtu.be/4L3GbC-QHic?si=fBRidyUW8i2Z5X_f" class="btn btn-primary">VER AHORA</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  </body>
+</html>

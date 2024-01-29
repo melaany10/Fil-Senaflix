@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    scroll-margin-top: 11ex;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(24, 21, 21, 0.63);
+    background-image: url(images/fondo.jpg);
+}
+
+@font-face {
+    font-family: Sansita-Regular;
+    src: url(/fuentes/Sansita-Regular.ttf);
+}
+
+h1 {
+    font-family: Sansita-Regular;
+}
+
+.navbar {
+    background-color: #ffffffc4;
+    height: 80px;
+    margin: 5px;
+    border-radius: 16px;
+    padding: 0.5rem;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    color: #009970;
+    font-size: 24px;
+    transition: 0.3s color;
+}
+
+.login-button {
+    background-color: #009970;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.login-button:hover {
+    background-color: #00b383;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: #666777;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #000;
+}
+
+@media (min-width: 991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: #009970;
+        visibility: visible;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before, .nav-link.active::before {
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+.row {
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.card {
+    margin: 10px 10px;
+    justify-content: center;
+}
+
+.d-item {
+    height: 50rem;
+}
+
+.d-img {
+    height: 100%;
+    object-fit: contain ;
+    filter: brightness(1);
+}
+
+.caja1 {
+    background-color: rgba(255, 71, 71, 0);
+    height: 10rem;
+    margin: 2px;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transform: translate(1%, -10%);
+}
+
+.caja2 {
+    background-color: rgba(54, 255, 81, 0);
+    height: 2rem;
+    margin: 2px;
+}
+
+h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    transform: translate(1%, -20%);
+}
+
+.a1 {
+    background-color: rgba(255, 34, 34, 0.664);
+    height: 5rem;
+    width: 100rem;
+    border-radius: 20px;
+}
+
+h4 {
+    color: #fff;
+    font-family: Sansita-Regular;
+    src: url(/fuentes/Sansita-Regular.ttf);
+    font-size: 30px;
+    transform: translateY(50%);
+}
+
+
+
